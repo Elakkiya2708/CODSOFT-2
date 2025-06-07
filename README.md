@@ -31,5 +31,6 @@ Task 2: Build a calculator that can perform basic arithmetic operations using Py
 
 ---
 
-👩‍💻 Developed by:
+**##👩‍💻 Developed by:
+**
 Elakkiya Varadharajan – Python Development Intern at CodSoft
