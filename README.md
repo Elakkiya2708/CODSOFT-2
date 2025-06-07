@@ -21,5 +21,5 @@ This repository contains a basic calculator web application developed using HTML
 
 
 ## 👩‍💻 Developed by:
-*Elakkiya*  
+*Elakkiya Varadharajan*  
 Intern @ CodSoft (Web Development Internship)
