@@ -1,25 +1,28 @@
-# CODSOFT_TASK_02 – Calculator Web App
+# CODSOFT_PY_02 – Calculator (Python)
 
-This repository contains a basic calculator web application developed using HTML, CSS, and JavaScript. This project was completed as part of the CodSoft Web Development Internship – Task 2.
+This is a basic calculator application built using Python. It is developed as part of the CodSoft Python Development Internship – Task 2.
 
-## 🧮 Features:
-- Basic arithmetic operations: Addition, Subtraction, Multiplication, and Division
-- Clear and Delete functionality
-- Responsive design for mobile and desktop
-- Styled with modern UI
+## 📌 Internship Task:
+Task 2: Build a calculator that can perform basic arithmetic operations using Python.
 
-## 💻 Technologies Used:
-- HTML – for markup
-- CSS – for styling and layout
-- JavaScript – for logic and interactivity
+## ✅ Features:
+- Addition
+- Subtraction
+- Multiplication
+- Division
+- Clear / Reset functionality
+- (Optional) GUI using Tkinter for better user experience
 
-## 🏁 Internship Task:
-*Task 2:* Create a calculator using HTML, CSS, and JavaScript.
+## 🛠️ Tech Stack:
+- Python 3.x
+- Tkinter (if GUI-based)
+- Command-line interface (if CLI-based)
 
-## 🔗 Live Demo:
-> https://elakkiya2708.github.io/CODSOFT-2/
+## ▶️ How to Run (For CLI version):
+1. Make sure Python 3 is installed.
+2. Open your terminal.
+3. Navigate to the project directory.
 
+👩‍💻 Developed by:
 
-## 👩‍💻 Developed by:
-*Elakkiya Varadharajan*  
-Intern @ CodSoft (Web Development Internship)
+Elakkiya Varadharajan – Python Development Intern at CodSoft
