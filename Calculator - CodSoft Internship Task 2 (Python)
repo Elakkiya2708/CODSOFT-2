@@ -1,0 +1,76 @@
+# ====================================================
+# CodSoft Internship - Python Programming
+# Task 2: Simple Calculator
+# Developed by: Elakkiya
+# Description: A clean, modular calculator that performs
+#              basic arithmetic operations with error handling.
+# ====================================================
+
+def get_number(prompt):
+    """
+    Prompt the user to enter a numeric value.
+    Continues until a valid number is entered.
+    """
+    while True:
+        try:
+            return float(input(prompt))
+        except ValueError:
+            print("❌ Invalid input. Please enter a valid number.")
+
+def get_operation():
+    """
+    Display a menu and get the user's arithmetic operation choice.
+    Returns the operation symbol as a string.
+    """
+    print("\n🔢 Select an operation:")
+    print(" 1. Addition (+)")
+    print(" 2. Subtraction (-)")
+    print(" 3. Multiplication (*)")
+    print(" 4. Division (/)")
+    
+    valid_choices = {'1': '+', '2': '-', '3': '*', '4': '/'}
+    while True:
+        choice = input("Enter your choice (1/2/3/4): ").strip()
+        if choice in valid_choices:
+            return valid_choices[choice]
+        print("❌ Invalid choice. Please select 1, 2, 3, or 4.")
+
+def calculate(num1, num2, operation):
+    """
+    Perform the selected arithmetic operation and return the result.
+    Handles division by zero.
+    """
+    if operation == '+':
+        return num1 + num2
+    elif operation == '-':
+        return num1 - num2
+    elif operation == '*':
+        return num1 * num2
+    elif operation == '/':
+        if num2 == 0:
+            return "❌ Error! Cannot divide by zero."
+        return num1 / num2
+
+def main():
+    """
+    Main function to run the calculator app.
+    """
+    print("\n===============================")
+    print("     SIMPLE CALCULATOR APP")
+    print("===============================")
+
+    # Get input from the user
+    num1 = get_number("Enter the first number: ")
+    num2 = get_number("Enter the second number: ")
+    operation = get_operation()
+
+    # Perform calculation
+    result = calculate(num1, num2, operation)
+
+    # Display result
+    print("\n✅ Operation Summary:")
+    print(f" {num1} {operation} {num2} = {result}")
+
+# Entry point
+if __name__ == "__main__":
+    main()
